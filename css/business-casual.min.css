@@ -96,10 +96,10 @@
            font-size: 0.9rem;
          }
          #mainNav .navbar-nav .nav-item .nav-link:hover {
-           color: rgba(255, 255, 255, 0.4);
+           color: rgba(255, 255, 255, 0.5);
          }
          #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-           color: #B0C9C5;
+           color: rgba(84, 92, 95, 0.5);
          }
        }
 
@@ -144,7 +144,7 @@
        .cta {
          padding-top: 5rem;
          padding-bottom: 5rem;
-         background-color: rgba(176,201,197, 0.9); // light blue
+         background-color: rgba(238,222,189,0.85); <!yellow->
        }
 
        .cta .cta-inner {
