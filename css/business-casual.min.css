@@ -1,7 +1,7 @@
 
        body {
          font-family: 'Lora';
-         background-image: linear-gradient(rgba(238,222,189, 0.4), rgba(238,222,189, 0.4)), url("../img/bg-keys2.jpg");
+         background-image: linear-gradient(rgba(238,222,189, 0.35), rgba(238,222,189, 0.35)), url("../img/bg-keys2.jpg");
          background-attachment: fixed;
          background-position: center;
          background-size: cover;
@@ -36,12 +36,14 @@
          display: block;
          font-size: 2rem;
          font-weight: 800;
+         color: rgba(84, 92, 95,0.8); <!dark blue->
        }
 
        .site-heading .site-heading-lower {
          font-size: 5rem;
-         font-weight: 120;
+         font-weight: 300;
          line-height: 4rem;
+         color: rgba(176,201,197,1); <!light blue->
        }
 
        .page-section {
@@ -51,12 +53,14 @@
 
        .section-heading {
          text-transform: uppercase;
+
        }
 
        .section-heading .section-heading-upper {
          display: block;
          font-size: 1rem;
          font-weight: 800;
+
        }
 
        .section-heading .section-heading-lower {
@@ -140,7 +144,7 @@
        .cta {
          padding-top: 5rem;
          padding-bottom: 5rem;
-         background-color: rgba(238,222,189, 0.9); // yellow
+         background-color: rgba(176,201,197, 0.9); // light blue
        }
 
        .cta .cta-inner {
