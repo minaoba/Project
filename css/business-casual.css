@@ -75,7 +75,7 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: rgba(238,222,189, 0.9); //yellow
   font-family: 'Raleway';
 }
 
@@ -145,7 +145,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  background-color: rgba(176, 201, 197, 0.9);
 }
 
 .cta .cta-inner {
@@ -225,7 +225,7 @@ p {
 }
 
 .footer {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: rgba(84, 81, 76, 0.9);
 }
 
 .text-primary {
@@ -246,8 +246,8 @@ p {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #df902a;
-  border-color: #df902a;
+  background-color: #EEDEBD;
+  border-color: #EEDEBD;
 }
 
 .font-weight-light {
