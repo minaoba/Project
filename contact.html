@@ -20,7 +20,48 @@
     <!-- Custom styles for this template -->
     <link href="css/business-casual.min.css" rel="stylesheet">
 
+    <!-- Contact us form https://bootsnipp.com/snippets/VgVDB -->
+<style>
+    #contact{
+
+        font-family: 'Raleway';
+    }
+
+    #contact .well{
+        margin-top:20px;
+        border-radius:0;
+    }
+
+    #contact .form-control{
+        margin-top:20px;
+        border-radius: 0;
+        border:2px solid #737E82;
+    }
+
+    #contact button{
+        border-radius:0;
+        border:0px solid #737E82;
+    }
+
+    #contact .row{
+        margin-bottom:30px;
+    }
+
+    @media (max-width: 768px) {
+        #contact iframe {
+            margin-bottom: 15px;
+        }
+
+    }
+  </style>
+
+
+    <!-- favicon  -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
   </head>
+
+
 
   <body>
 
@@ -60,59 +101,53 @@
       </div>
     </nav>
 
+<!--Contact form container-->
     <section class="page-section cta">
       <div class="container">
         <div class="row">
           <div class="col-xl-9 mx-auto">
             <div class="cta-inner text-center rounded">
-              <h2 class="section-heading mb-5">
-                <span class="section-heading-upper">Come On In</span>
-                <span class="section-heading-lower">Make a form on this page</span>
-              </h2>
-              <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
-                <li class="list-unstyled-item list-hours-item d-flex">
-                  Sunday
-                  <span class="ml-auto">Closed</span>
-                </li>
-                <li class="list-unstyled-item list-hours-item d-flex">
-                  Monday
-                  <span class="ml-auto">7:00 AM to 8:00 PM</span>
-                </li>
-                <li class="list-unstyled-item list-hours-item d-flex">
-                  Tuesday
-                  <span class="ml-auto">7:00 AM to 8:00 PM</span>
-                </li>
-                <li class="list-unstyled-item list-hours-item d-flex">
-                  Wednesday
-                  <span class="ml-auto">7:00 AM to 8:00 PM</span>
-                </li>
-                <li class="list-unstyled-item list-hours-item d-flex">
-                  Thursday
-                  <span class="ml-auto">7:00 AM to 8:00 PM</span>
-                </li>
-                <li class="list-unstyled-item list-hours-item d-flex">
-                  Friday
-                  <span class="ml-auto">7:00 AM to 8:00 PM</span>
-                </li>
-                <li class="list-unstyled-item list-hours-item d-flex">
-                  Saturday
-                  <span class="ml-auto">9:00 AM to 5:00 PM</span>
-                </li>
-              </ul>
-              <p class="address mb-5">
-                <em>
-                  <strong>1116 Orchard Street</strong>
-                  <br>
-                  Golden Valley, Minnesota
-                </em>
-              </p>
-              <p class="mb-0">
-                <small>
-                  <em>Call Anytime</em>
-                </small>
-                <br>
-                (317) 585-8468
-              </p>
+              <!-- contact form-->
+                  <section id="contact">
+                    <div class="container">
+                      <div class="well well-sm">
+                        <h3><strong>Contact Us</strong></h3>
+                      </div>
+
+                  	<div class="row">
+                  	  <div class="col-md-7">
+                          <iframe src="https://maps.google.com/maps?q=Stadium%20House%2C%20Door%20A%2C%2068%20Wood%20Ln%2C%20London%20W12%207TA&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+
+
+
+                        <div class="col-md-5">
+                            <h4><strong>Get in Touch</strong></h4>
+                          <form>
+                            <div class="form-group">
+                              <input type="text" class="form-control" name="" value="" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                              <input type="email" class="form-control" name="" value="" placeholder="E-mail">
+                            </div>
+                            <div class="form-group">
+                              <input type="tel" class="form-control" name="" value="" placeholder="Phone">
+                            </div>
+                            <div class="form-group">
+                              <textarea class="form-control" name="" rows="3" placeholder="Message"></textarea>
+                            </div>
+                            <button class="intro-button mx-auto" type="submit" name="button">
+                                <i class="btn btn-primary btn-xl" > Submit </i>
+                            </button>
+
+
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+
             </div>
           </div>
         </div>

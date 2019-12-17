@@ -25,8 +25,8 @@
        }
 
        .site-heading {
-         margin-top: 5rem;
-         margin-bottom: 5rem;
+         margin-top: 4rem;
+         margin-bottom: 2rem;
          text-transform: uppercase;
          line-height: 1;
          font-family: 'Raleway';
@@ -47,7 +47,7 @@
        }
 
        .page-section {
-         margin-top: 5rem;
+         margin-top: 1rem;
          margin-bottom: 5rem;
        }
 
@@ -124,7 +124,7 @@
          .intro .intro-text {
            left: 0;
            width: 60%;
-           margin-top: 3rem;
+           margin-top: 2rem;
            position: absolute;
          }
          .intro .intro-text .intro-button {
@@ -171,7 +171,7 @@
            z-index: 0;
          }
          .about-heading .about-heading-content {
-           margin-top: -5rem;
+           margin-top: -20rem;
            position: relative;
            z-index: 1;
          }
@@ -181,7 +181,7 @@
          .product-item .product-item-title {
            position: relative;
            z-index: 1;
-           margin-bottom: -3rem;
+           margin-bottom: -10rem;
          }
          .product-item .product-item-img {
            position: relative;
@@ -191,7 +191,7 @@
          .product-item .product-item-description {
            position: relative;
            z-index: 1;
-           margin-top: -3rem;
+           margin-top: -10rem;
            max-width: 50vw;
          }
        }
