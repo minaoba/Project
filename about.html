@@ -173,6 +173,42 @@ html {
   scroll-behavior: smooth;
 }
 
+.cf:before, .cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+.fl {
+    float: left;
+    _display: inline;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+
+.pv5 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-right: 3px;
+    padding-left: 3px;
+
+}
+
+.tc {
+    text-align: center;
+}
+
+
 </style>
 
 
@@ -190,30 +226,30 @@ html {
   </h1>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-dark py-lg-3" id="mainNav">
     <div class="container">
-      <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
+      <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Stop&Lock</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="index.html">Home
+            <a class="nav-link text-uppercase text-expanded" href="index.html">Project
               <span class="sr-only">(current)</span>
             </a>
           </li>
-          <li class="nav-item active px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="making.html">About Us</a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="making.html">The Making</a>
+            <a class="nav-link text-uppercase text-expanded" href="contact.html">Contact Us</a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="contact.html">Contact</a>
+            <a class="nav-link text-uppercase text-expanded" href="about.html">Our Team</a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="website.html">Website</a>
+            <a class="nav-link text-uppercase text-expanded" href="website.html">Additional Information</a>
           </li>
         </ul>
       </div>
@@ -262,7 +298,7 @@ html {
            </div>
         </div>
         <div class="row" align="center">
-           <div class="col-md-3">
+           <div class="fl w-20 tc pv5">
               <div class="single-team">
                  <img src="img/priyen.jpg" alt="">
                  <div class="team-hover">
@@ -279,7 +315,7 @@ html {
                  Responsible for...
               </div>
            </div>
-           <div class="col-md-3">
+           <div class="fl w-20 tc pv5">
               <div class="single-team">
                  <img src="img/lollo.jpg" alt="">
                  <div class="team-hover">
@@ -296,7 +332,7 @@ html {
                 Responsible for...
               </div>
            </div>
-           <div class="col-md-3">
+           <div class="fl w-20 tc pv5">
               <div class="single-team">
                  <img src="img/jake.jpg" alt="">
                  <div class="team-hover">
@@ -313,7 +349,24 @@ html {
                 Responsible for...
               </div>
            </div>
-           <div class="col-md-3">
+           <div class="fl w-20 tc pv5">
+              <div class="single-team">
+                 <img src="img/mina.png" alt="">
+                 <div class="team-hover">
+                    <div class="team-content">
+                       <h4>Mina Oba<span>Lead Designer</span></h4>
+                       <ul>
+                         <li><a href="#"><img src="img/linkedin.jpg" alt=""></a></li>
+                         <li><a href="#"><img src="img/website.png" alt=""></a></li>
+                       </ul>
+                    </div>
+                 </div>
+                 <em>Lead Designer</em>
+                <h5>Mina Oba </h5>
+                Responsible for...
+              </div>
+           </div>
+           <div class="fl w-20 tc pv5">
               <div class="single-team">
                  <img src="img/mina.png" alt="">
                  <div class="team-hover">
